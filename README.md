@@ -1,2 +1,2 @@
-# ML--Tasks
+# ML-Tasks
 ML Tasks / Assignments
