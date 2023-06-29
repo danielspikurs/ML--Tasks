@@ -7,8 +7,7 @@ from sklearn import svm
 from sklearn import metrics
 
 # Machine Learning Assignment 1
-# Daniels Pikurs R00166279
-# SDH4-B 
+# Daniels Pikurs
 
 data = pd.read_excel("movie_reviews.xlsx")
 data["Sentiment"] = data["Sentiment"].map({"negative": 0, "positive": 1})
@@ -74,7 +73,6 @@ def task_three(train_data, words_to_filter, train_labels):
                      words_to_keep.append(word)
             train_data[i][j] = " ".join(words_to_keep)
 
-    
     positive_reviews = train_data[train_labels == 1]
     negative_reviews = train_data[train_labels == 0]
     
