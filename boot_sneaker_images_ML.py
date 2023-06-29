@@ -10,8 +10,7 @@ from sklearn import neighbors
 from matplotlib import pyplot as plt
 
 # Machine Learning Assignment 2
-# Daniels Pikurs R00166279
-# SDH4-B 
+# Daniels Pikurs
 
 # 0 Sneaker, 1 Boot
 
@@ -146,8 +145,6 @@ def task_four(fv, labels):
     plt.title('SVM Gamma vs Accuracy')
     plt.show() 
 
-    # From the graph I can see that the gamma value of 1 provides the most accurate predictions.
-    # The best mean prediction score is just about 50%.
 
     runtimes = []
     for nrows in [1000, 5000, 10000]:
